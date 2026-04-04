@@ -4,7 +4,7 @@
 
 set -e
 
-OUTDIR=$1
+OUTDIR=/home/shantanu3107/linux_dir
 
 if [ -z "${OUTDIR}" ]; then
     OUTDIR=/tmp/aeld
