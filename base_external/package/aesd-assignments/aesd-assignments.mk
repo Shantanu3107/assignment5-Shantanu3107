@@ -10,9 +10,9 @@ AESD_ASSIGNMENTS_VERSION = main
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = git@github.com:Shantanu3107/assignment3-and-later-Shantanu3107.git
+AESD_ASSIGNMENTS_SITE = git@github.com:Shantanu3107/assignment4-Shantanu3107.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
-# AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
